@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim jest Marvin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1>Strona o Marvinie</h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="navigation__ithem" href="#wstep">Wstęp</a></li>
+        <li><a class="navigation__ithem" href="#historia"> Historia</a></li>
+        <li>
+          <a class="navigation__ithem" href="#sciezki-rozwoju-postaci">
+            Ścieżki rozwoju postaci
+          </a>
+        </li>
+        <li>
+          <a class="navigation__ithem" href="#ciekawostki">Ciekawostki</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="wstep" class="section">
+        <h2>Wstęp</h2>
+        <strong>
+          Marvin to główny bohater Kronik Myrtany modyfikacji gry Gothic II Noc
+          Kruka, stworzonej przez zespół
+          <i>The Chronicles of Myrtana Team</i></strong
+        >
+
+        <p>
+          Marvin jest młodą osobą która przybyła z wyspy Londram na wyspę
+          Archolos uciekając przed wojną z orkami
+        </p>
+        <img class="section__photo" src="images/Marvin.jpg" alt="Marvin" />
+      </section>
+      <section id="historia" class="section">
+        <h2>Historia</h2>
+        <h3>Przed rozpoczęciem akcji</h3>
+        <p>
+          Bohater mieszkał ze swoimi rodzicami i bratem Jonem na Londram. Po
+          śmierci swoich rodziców i wzrastającym zagrożeniu ze strony orków wraz
+          z bratem postanowił opuścić rodzinną wyspę szukając schronienia na
+          Archolos, gdzie mieszkał już wujek rodzeństwa - Kurt. Podróż statkiem
+          nie była tanią, dlatego w celu przekupienia kapitana bracia ukradli
+          amulet z grobu własnej matki.
+        </p>
+        <h3>W czasie rozgrywki</h3>
+        <p>
+          Po dotarciu na wyspę w drodze do wioski Silbach, gdzie zamieszkuje
+          Kurt, brat Marvina John zostaje ukąszony przez krwiopijcę rzecznego.
+          Bracia odnajdują w Silbach swojego wuja, który pomaga Marvinowi w
+          opiece nad rannym bratem. Jednak po jakimś czasie John zostaje
+          porwany.<br />
+          <b>Dalsze losy braci zależą od wyborów gracza.</b>
+        </p>
+      </section>
+      <section id="sciezki-rozwoju-postaci" class="section">
+        <h2>Ścieżki rozwoju postaci</h2>
+        <div class="section__cointainer">
+          <table class="section__table">
+            <caption class="section__caption">
+              Ścieżki rozwoju postaci
+            </caption>
+            <tr>
+              <th class="section__cell section__cell--head" scope="col">
+                Gildia
+              </th>
+              <th class="section__cell section__cell--head" scope="col">
+                Broń w zwarciu
+              </th>
+              <th class="section__cell section__cell--head" scope="col">
+                Broń długodystansowa
+              </th>
+            </tr>
+            <tr>
+              <th class="section__cell section__cell--head" scope="row">
+                Straż miejska
+              </th>
+              <td class="section__cell">Wojownik</td>
+              <td class="section__cell">Kusznik</td>
+            </tr>
+            <tr>
+              <th class="section__cell section__cell--head" scope="row">
+                Araxos
+              </th>
+              <td class="section__cell">Szermierz</td>
+              <td class="section__cell">Tropiciel</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="ciekawostki" class="section">
+        <h2>Ciekawostki</h2>
+        <p>
+          Po wpisaniu kodu Marvin w oknie umiejętności bohater wypowiada kwestię
+          <em>„Tak, to ja”</em><br />
+          <span class="js__spoiler"> Spoiler </span>
+        </p>
+        <button class="section__spoilerButton js__spoilerButton">
+          Pokaż spoiler
+        </button>
+      </section>
+    </main>
+    <footer class="section">Wykonał Radosław Siek</footer>
+  </body>
+</html>

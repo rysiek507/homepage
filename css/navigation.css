@@ -1,0 +1,19 @@
+.navigation {
+    list-style-type:none;
+    padding-left: 20px;
+}
+
+.navigation__ithem {
+    color:rgb(2, 70, 70);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigation__ithem:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__ithem:active {
+    color:#111111;
+}
