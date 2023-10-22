@@ -1,59 +1,57 @@
 .section {
-    background-color:rgb(156, 156, 156);
-    border: 2px solid rgb(61, 61, 61);
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 5%;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    box-shadow: 1px 1px 1px 1px #414141;
+  background-color: rgb(156, 156, 156);
+  border: 2px solid rgb(61, 61, 61);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 1px 1px #414141;
 }
 
 .section__photo {
-    max-width: 400px;
-    width: 100%;
-    padding: auto;
+  max-width: 400px;
+  width: 100%;
+  padding: auto;
 }
 
-.section__cointainer{
-    overflow-x: auto;
+.section__cointainer {
+  overflow-x: auto;
 }
 
 .section__table {
-    border-collapse: collapse;
-    width: 100%;
-    
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .section__caption {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .section__cell {
-    border: 1px solid;
-    background-color: #9c9c9c;
-    text-align: center;
-    padding: 5px;
-    
+  border: 1px solid;
+  background-color: #9c9c9c;
+  text-align: center;
+  padding: 5px;
 }
 
 .section__cell--head {
-    background-color: #7e7e7e;
+  background-color: #7e7e7e;
 }
 
 .section__cell:hover {
-    background-color: rgb(189, 194, 197);
+  background-color: rgb(189, 194, 197);
 }
 
 .section__spoilerButton {
-    border: 2px solid rgb(61, 61, 61);
-    border-radius: 5px;
-    padding: 5px;
-    background-color: azure;
-    box-shadow: 1px 1px 1px 1px #414141;
+  border: 2px solid rgb(61, 61, 61);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: azure;
+  box-shadow: 1px 1px 1px 1px #414141;
 }
 
 .section__spoilerButton:hover {
-    background-color: bisque;
+  background-color: bisque;
 }
