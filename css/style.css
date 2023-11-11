@@ -1,21 +1,23 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, ::after, ::before {
-    box-sizing: inherit;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
 
 .body {
-    background-color:rgb(204, 203, 202);
-    color: #111111;
-    max-width: 1000px;
-    margin: auto;
-    font-family: 'Geologica', sans-serif;
-    line-height: 1.5;
+  background-color: rgb(204, 203, 202);
+  color: #111111;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Geologica", sans-serif;
+  line-height: 1.5;
 }
 
-.header{
-    margin-left: 10px;
-    margin-right: 5px;
+.header {
+  margin-left: 10px;
+  margin-right: 5px;
 }
